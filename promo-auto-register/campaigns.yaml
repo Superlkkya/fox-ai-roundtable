@@ -1,0 +1,18 @@
+# 活動清單：一個活動一筆。button_texts / done_texts 依實際頁面文字調整。
+defaults:
+  button_texts: ["立即登錄", "我要登錄", "登錄活動", "活動登錄", "點我登錄", "馬上登錄"]
+  confirm_texts: ["確定", "確認", "同意並登錄", "我同意"]
+  done_texts: ["已登錄", "登錄成功", "完成登錄", "您已完成登錄", "已完成登錄"]
+  login_texts: ["請先登入", "會員登入", "請登入"]
+
+campaigns:
+  - name: momo 活動 1
+    url: https://momo.dm/YjYeBi
+  - name: momo 活動 2
+    url: https://momo.dm/myZIF3
+  - name: momo 活動 3
+    url: https://momo.dm/EAyZiI
+  # 銀行活動範例（網址換成實際活動頁）：
+  # - name: 某銀行 11 月網購回饋
+  #   url: https://www.example-bank.com.tw/promo/xxxx
+  #   button_texts: ["立即登錄"]   # 可覆寫 defaults

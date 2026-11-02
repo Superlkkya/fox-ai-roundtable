@@ -1,0 +1,5 @@
+browser-profile/
+screenshots/
+results.csv
+run.log
+__pycache__/
